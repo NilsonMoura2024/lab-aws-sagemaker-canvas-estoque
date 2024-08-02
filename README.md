@@ -25,6 +25,8 @@
 3. TREINAMENTO DO MODELO:
    
 - Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
+- Configuração da Série Temporal
+- ID da Série: ID do Produto
 
 -Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
 
