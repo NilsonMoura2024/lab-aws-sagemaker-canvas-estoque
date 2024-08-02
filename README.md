@@ -21,7 +21,9 @@
 -Feature Engineering: Criação de novas variáveis baseadas em datas e eventos.
 
 -Normalização: Normalização das variáveis para melhorar a performance do modelo.
-
+3. TREINAMENTO DO MODELO:
+   
+- Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais):
 3.TREINAMENTO DO MODELO:
 
 -Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
