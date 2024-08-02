@@ -1,7 +1,6 @@
 📊Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] (https://aws.amazon.com/pt/sagemaker/canvas/)
 
 📋Introdução:
-
 Esse projeto visa auxiliar a empresa Rico Prado Lobo Flores a desenvolver um sistema de previsão de estoque inteligente, utilizando um modelo de machine learning.
 
 🎯Objetivo:
