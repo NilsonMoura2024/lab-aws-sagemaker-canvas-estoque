@@ -1,4 +1,4 @@
-📊Previsão de Estoque Inteligente na AWS com [SageMaker Canvas]. Para acessar a ferramenta visite: (https://aws.amazon.com/pt/sagemaker/canvas/)
+📊Previsão de Estoque Inteligente na AWS com [SageMaker Canvas]. Para acessar a ferramenta acesse: (https://aws.amazon.com/pt/sagemaker/canvas/)
 
 📋INTRODUÇÃO:
 
@@ -27,7 +27,9 @@ Otimizar a gestão de estoque e reduzir custos operacionais.
 -Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
 
 -Configuração da Série Temporal:
+
  =ID da Série: ID do Produto
+ 
  =Tipo de Modelo: Selecionado automaticamente pelo SageMaker Canvas
 
 -Seleção do Modelo: O SageMaker Canvas recomenda automaticamente o tipo de modelo mais apropriado para a análise, utilizando técnicas de AutoML (Automated Machine Learning).
