@@ -1,47 +1,66 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+📊Previsão de Estoque Inteligente na AWS com SageMaker Canvas
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+📋Introdução: 
+Esse projeto visa auxiliar a empresa Rico Prado Lobo Flores a desenvolver um sistema de previsão de estoque inteligente, utilizando um modelo de machine learning.
 
-## 📋 Pré-requisitos
+🎯Objetivo:
+Otimizar a gestão de estoque e reduzir custos operacionais.
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
+🚀PASSO A PASSO:
 
+1.Dataset:
+Para ter consistência, foram utilizados os dados do ano todo de 2023. O dataset foi criado considerando variáveis que podem impactar o resultado de vendas ao longo desse período, tais como: promoções, dia da semana, eventos, temperatura do dia, estação do ano.
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+2.Pré-processamento dos Dados:
+-Limpeza dos Dados: Remoção de valores nulos e inconsistentes.
+-Feature Engineering: Criação de novas variáveis baseadas em datas e eventos.
+-Normalização: Normalização das variáveis para melhorar a performance do modelo.
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+3.Treinamento do Modelo:
+-Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
+-Configuração da Série Temporal:
+*ID da Série: ID do Produto
+*Tipo de Modelo: Selecionado automaticamente pelo SageMaker Canvas
+-Seleção do Modelo: O SageMaker Canvas recomenda automaticamente o tipo de modelo mais apropriado para a análise, utilizando técnicas de AutoML (Automated Machine Learning).
+-Objetivo: O modelo foi treinado para prever valores futuros de "Quantidade Vendida" utilizando dados históricos.
+-Processo:
+*Análise dos dados de entrada
+*Seleção automática do tipo de modelo mais adequado
+*Treinamento e otimização do modelo escolhido
+*Avaliação da performance do modelo
+-Variável Alvo: Quantidade Vendida
+-Variáveis de Entrada: Dados históricos de vendas, possivelmente incluindo variáveis como dia da semana, estação do ano, eventos especiais, temperatura do dia e promoções.
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+#Vantagens da Seleção Automática:
+-Elimina a necessidade de conhecimento técnico profundo em seleção de modelos
+-Adapta-se às características específicas dos dados fornecidos
+-Potencialmente testa múltiplos tipos de modelos para encontrar o mais adequado
 
+#Aplicações Práticas (Este modelo pode ajudar a responder questões de negócios como):
+-Como as vendas serão afetadas se os preços forem aumentados em 10%?
+-Quanto estoque deve ser pedido para a temporada de festas?
 
-## 🚀 Passo a Passo
+4. Avaliação do Modelo:
+As métricas de performance do modelo foram avaliadas utilizando o conjunto de validação. Os resultados são os seguintes:
+-Avg. wQL: 0.074
+-MAPE: 0.002
+-WAPE: 0.015
+-RMSE: 1.382
+-MASE: 0.016
 
-### 1. Selecionar Dataset
+5. Análise e Insights
+-Precisão das Previsões: As métricas MAPE e WAPE indicam que o modelo tem alta precisão nas previsões.
+-Erro Médio: O RMSE sugere que o modelo tem um erro médio aceitável, considerando a escala dos dados.
+-Desempenho Relativo: O MASE indica que o modelo performa significativamente melhor do que um modelo de referência simples.
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+#Aplicações Práticas: As previsões geradas pelo modelo podem ser utilizadas para:
+-Planejar aumentos de preços e entender seu impacto nas vendas.
+-Determinar a quantidade de estoque necessária para períodos de alta demanda, como a temporada de festas.
 
-### 2. Construir/Treinar
+6. Conclusões:
+O modelo desenvolvido para prever o estoque da empresa Rico Prado Lobo Flores mostrou-se altamente preciso e eficiente. As previsões podem ser utilizadas para otimizar a gestão de estoque, reduzir custos e melhorar a eficiência operacional.
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
-
-### 3. Analisar
-
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
-
-### 4. Prever
-
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+7. Próximos Passos
+-Validação em Produção: Implementar o modelo em um ambiente de produção e monitorar sua performance.
+-Ajustes Futuros: Continuar ajustando o modelo com novos dados e variáveis para melhorar ainda mais a precisão das previsões.
+-Integração com Sistemas: Integrar as previsões com o sistema de gestão de estoque da empresa para automação de processos.
