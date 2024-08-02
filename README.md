@@ -14,10 +14,11 @@
    
 - Para ter consistência, foram utilizados os dados do ano todo de 2023. O dataset foi criado considerando variáveis que podem impactar o resultado de vendas ao longo desse período, tais como: promoções, dia da semana, eventos, temperatura do dia, estação do ano.
 
-
-1.DATASET:
-
--Para ter consistência, foram utilizados os dados do ano todo de 2023. O dataset foi criado considerando variáveis que podem impactar o resultado de vendas ao longo desse período, tais como: promoções, dia da semana, eventos, temperatura do dia, estação do ano.
+2. PRÉ-PROCESSAMENTO DOS DADOS:
+   
+- Limpeza dos Dados: Remoção de valores nulos e inconsistentes
+- Feature Engineering: Criação de novas variáveis baseadas em datas e eventos
+- Normalização: Normalização das variáveis para melhorar a performance do modelo.
 
 2.PRÉ-PROCESSAMENTO DOS DADOS:
 
