@@ -25,46 +25,29 @@
 - Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
 - Configuração da Série Temporal
 - ID da Série: ID do Produto
-
--Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
-
--Configuração da Série Temporal:
-
- =ID da Série: ID do Produto
- 
- =Tipo de Modelo: Selecionado automaticamente pelo SageMaker Canvas
-
--Seleção do Modelo: O SageMaker Canvas recomenda automaticamente o tipo de modelo mais apropriado para a análise, utilizando técnicas de AutoML (Automated Machine Learning).
-
--Objetivo: O modelo foi treinado para prever valores futuros de "Quantidade Vendida" utilizando dados históricos.
-
--Processo:
-
- =Análise dos dados de entrada
- 
- =Seleção automática do tipo de modelo mais adequado
- 
- =Treinamento e otimização do modelo escolhido
- 
- =Avaliação da performance do modelo
- 
- =Variável Alvo: Quantidade Vendida
- 
- =Variáveis de Entrada: Dados históricos de vendas, possivelmente incluindo variáveis como dia da semana, estação do ano, eventos especiais, temperatura do dia e promoções.
+- Tipo de Modelo: Time Series Forecasting (Previsão de Séries Temporais)
+- Configuração da Série Temporal:
+- ID da Série: ID do Produto
+- Tipo de Modelo: Selecionado automaticamente pelo SageMaker Canvas
+- Seleção do Modelo: O SageMaker Canvas recomenda automaticamente o tipo de modelo mais apropriado para a análise, utilizando técnicas de AutoML (Automated Machine Learning)
+- Objetivo: O modelo foi treinado para prever valores futuros de "Quantidade Vendida" utilizando dados históricos
+- Processo:
+- =Análise dos dados de entrada
+- =Seleção automática do tipo de modelo mais adequado
+- =Treinamento e otimização do modelo escolhido
+- =Variável Alvo: Quantidade Vendida
+- =Variáveis de Entrada: Dados históricos de vendas, possivelmente incluindo variáveis como dia da semana, estação do ano, eventos especiais, temperatura do dia e promoções.
 
 #Vantagens da Seleção Automática:
 
--Elimina a necessidade de conhecimento técnico profundo em seleção de modelos
-
--Adapta-se às características específicas dos dados fornecidos
-
--Potencialmente testa múltiplos tipos de modelos para encontrar o mais adequado
+- Elimina a necessidade de conhecimento técnico profundo em seleção de modelos
+- Adapta-se às características específicas dos dados fornecidos
+- Potencialmente testa múltiplos tipos de modelos para encontrar o mais adequado
 
 #Aplicações Práticas (Este modelo pode ajudar a responder questões de negócios como):
 
--Como as vendas serão afetadas se os preços forem aumentados em 10%?
-
--Quanto estoque deve ser pedido para a temporada de festas?
+- Como as vendas serão afetadas se os preços forem aumentados em 10%?
+- Quanto estoque deve ser pedido para a temporada de festas?
 
 4. AVALIAÇÃO DO MODELO:
    
