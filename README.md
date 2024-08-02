@@ -10,6 +10,11 @@
 
 🚀PASSO A PASSO:
 
+1. DATASET:
+   
+- Para ter consistência, foram utilizados os dados do ano todo de 2023. O dataset foi criado considerando variáveis que podem impactar o resultado de vendas ao longo desse período, tais como: promoções, dia da semana, eventos, temperatura do dia, estação do ano.
+
+
 1.DATASET:
 
 -Para ter consistência, foram utilizados os dados do ano todo de 2023. O dataset foi criado considerando variáveis que podem impactar o resultado de vendas ao longo desse período, tais como: promoções, dia da semana, eventos, temperatura do dia, estação do ano.
