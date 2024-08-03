@@ -1,4 +1,4 @@
-# Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] (https://aws.amazon.com/sagemaker/canvas/)
+# Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] https://aws.amazon.com/sagemaker/canvas/
 
 ## Visão Geral
 
