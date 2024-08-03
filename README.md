@@ -1,19 +1,24 @@
-# 📊Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] (https://aws.amazon.com/pt/sagemaker/canvas/)
+# Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] (https://aws.amazon.com/pt/sagemaker/canvas/)
 
-## 📋 Introdução
+## Introdução
 
-- Esse projeto visa auxiliar a empresa de flower design Rico Prado Lobo Flores a desenvolver um sistema de previsão de estoque inteligente, utilizando um modelo de machine learning.
+- Este projeto visa desenvolver um sistema de previsão de estoque inteligente para a empresa de flower design Rico Prado Lobo Flores, utilizando modelo de machine learning.
 
-## 🎯 Objetivo
+## Benefícios
 
-- Otimizar a gestão de estoque e reduzir custos operacionais.
+- A implementação otimizará a gestão de estoque, reduzirá custos operacionais e melhorará a eficiência e rentabilidade. Além disso, permitirá à empresa tomar decisões mais estratégicas e rápidas, baseadas em dados, aumentando sua competitividade.
 
-## 🚀 Passo a Passo
+
+## Objetivo
+
+- Otimizar a gestão de estoque, reduzir custos operacionais e melhorar a eficiência e rentabilidade do negócio.
+
+## Passo a Passo
 
 ### 1.Dataset:
 
 - Para assegurar consistência e uma análise abrangente, foram consideradas bases de dados referentes a todo o ano de 2023;
-- O dataset foi criado considerando variáveis que podem impactar as vendas ao longo do período, tais como: promoções, dia da semana, eventos, temperatura e estação do ano.
+- O dataset foi criado levando em conta variáveis que podem impactar as vendas ao longo do período, tais como: promoções, dia da semana, eventos, temperatura e estação do ano.
 
 ### 2.Pré-processamento dos Dados:
 
@@ -86,12 +91,15 @@
 
 ### 7. Conclusões:
 
-- O modelo desenvolvido para prever o estoque da empresa Rico Prado Lobo Flores mostrou-se altamente preciso e eficiente;
--  As previsões podem ser utilizadas para otimizar a gestão de estoque, reduzir custos e melhorar a eficiência operacional.
+- O sistema de previsão de estoque desenvolvido mostrou-se altamente preciso e eficiente;
+-  As previsões geradas podem ser utilizadas para otimizar a gestão de estoque, reduzir custos operacionais e melhorar a eficiência e rentabilidade do negócio;
+-  A tomada de decisões baseada em dados permitirá à empresa ser mais estratégica, responder mais rapidamente e de forma mais assertiva às demandas do mercado, aumentando sua competitividade.
 
 ### 8. Próximos Passos:
 
-- Validação em Produção: Implementar o modelo em um ambiente de produção e monitorar sua performance;
-- Ajustes Futuros: Continuar ajustando o modelo com novos dados e variáveis para melhorar ainda mais a precisão das previsões;
-- Integração com Sistemas: Integrar as previsões com o sistema de gestão de estoque da empresa para automação de processos.
+- Implementação em Produção: Colocar o sistema de previsão de estoque em um ambiente de produção e monitorar continuamente sua performance;
+- Refinamento Contínuo: Ajustar e aprimorar o modelo com novos dados e variáveis para aumentar a precisão das previsões;
+- Integração de Sistemas: Incorporar as previsões ao sistema de gestão de estoque da empresa para automatizar processos e facilitar a tomada de decisões;
+- Treinamento da Equipe: Capacitar os colaboradores para interpretar e utilizar efetivamente os insights gerados pelo sistema;
+- Avaliação de Impacto: Medir e analisar o impacto do sistema na eficiência operacional, redução de custos e rentabilidade do negócio.
   
