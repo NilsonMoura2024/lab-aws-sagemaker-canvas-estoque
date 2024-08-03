@@ -1,5 +1,21 @@
 # Previsão de Estoque Inteligente na AWS com [SageMaker Canvas] (https://aws.amazon.com/pt/sagemaker/canvas/)
 
+## Visão Geral
+
+- Este projeto tem como objetivo desenvolver um sistema de previsão de estoque inteligente para a empresa de flower design Rico Prado Lobo Flores, utilizando machine learning com o SageMaker Canvas da AWS. O objetivo é otimizar a gestão de estoque, reduzir custos operacionais e melhorar a eficiência e rentabilidade do negócio.
+
+## Principais Característicias
+
+- Análise Abrangente: Incorpora dados de vendas de 2023, incluindo promoções, eventos e tendências sazonais;
+- Tecnologia Avançada: Aproveita as capacidades de AutoML do SageMaker Canvas para otimizar a seleção e treinamento do modelo;
+- Suporte à Decisão: Gera insights acionáveis para uma tomada de decisão ágil e estratégica.
+- Precisão Comprovada: Alcança alta acurácia nas previsões, respaldada por métricas de desempenho robustas;
+- Impacto no Negócio: Potencializa a eficiência operacional e a competitividade da empresa no mercado.
+
+O sistema desenvolvido permite à empresa tomar decisões mais assertivas baseadas em dados, aumentando sua competitividade no mercado.
+
+# Descrição detalhada do projeto abaixo
+
 ## Introdução
 
 - Este projeto visa desenvolver um sistema de previsão de estoque inteligente para a empresa de flower design Rico Prado Lobo Flores, utilizando modelo de machine learning.
@@ -52,13 +68,13 @@
    f)Variáveis de Entrada: Dados históricos de vendas, possivelmente incluindo variáveis como dia da semana, estação do ano, eventos especiais, temperatura do dia e promoções.
 
 
-@Vantagens da Seleção Automática:
+* Vantagens da Seleção Automática:
 
 - Elimina a necessidade de conhecimento técnico profundo em seleção de modelos;
 - Adapta-se às características específicas dos dados fornecidos;
 - Potencialmente testa múltiplos tipos de modelos para encontrar o mais adequado.
 
-@Aplicações Práticas (este modelo pode ajudar a responder questões de negócios como):
+* Aplicações Práticas (este modelo pode ajudar a responder questões de negócios como):
 
 - Como as vendas serão afetadas se os preços forem aumentados em 10%?;
 - Quanto estoque deve ser pedido para a temporada de festas?.
